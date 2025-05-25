@@ -1,0 +1,111 @@
+/* style.css */
+
+/* Background */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Sans MS', 'Segoe UI', cursive;
+    background: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* App container */
+  .app {
+    background-color: #ffffffcc;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    width: 400px;
+    max-width: 90%;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .app:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Heading */
+  h1 {
+    font-size: 2.2rem;
+    color: #ff6f61;
+    margin-bottom: 1.5rem;
+    text-shadow: 1px 1px #ffd7c2;
+  }
+  
+  /* Input section */
+  .input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 1.5rem;
+    justify-content: center;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 0.7rem 1rem;
+    border: 2px solid #ffb3a7;
+    border-radius: 15px;
+    font-size: 1rem;
+    transition: 0.3s ease;
+  }
+  
+  input[type="text"]:focus {
+    border-color: #ff6f61;
+    outline: none;
+    background-color: #fff7f3;
+  }
+  
+  /* Add button */
+  button {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 0.7rem 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+  }
+  
+  button:hover {
+    background-color: #ff3b2e;
+    transform: scale(1.05);
+  }
+  
+  /* Todo list styles */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #fff4f1;
+    padding: 0.8rem 1rem;
+    margin-bottom: 0.6rem;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  li button {
+    background-color: #ff4040;
+    border: none;
+    color: white;
+    padding: 0.4rem 0.8rem;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  li button:hover {
+    background-color: #c82323;
+  }
+  
